@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nullclient",
+  "version": "1.0.0",
+  "name": "NullClient",
+  "description": "Lightweight Fabric client for mobile-friendly Minecraft gameplay.",
+  "authors": ["z3r0fang_"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.nullclient.client.ClientMain"
+    ]
+  },
+  "mixins": [
+    "nullclient.mixins.json"
+  ]
+}

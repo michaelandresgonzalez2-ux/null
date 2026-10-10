@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.nullclient.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockMixin"
+  ]
+}
